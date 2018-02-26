@@ -100,7 +100,7 @@ public class ShittySingleton implements Serializable, AutoCloseable {
         new File(filename).delete();
     }
 
-    public void reloadInstance(){
+    private void reloadInstance(){
         try {
             String s = readFile(filename, StandardCharsets.UTF_8);
             writeFile("WiP");
