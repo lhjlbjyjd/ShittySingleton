@@ -1,0 +1,6 @@
+int func(int i){
+  if(i >= 0 && i < 5)
+    return i;
+  else 
+    return -1;
+}
